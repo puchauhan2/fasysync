@@ -1,0 +1,103 @@
+Validate SSH stderr: Warning: Permanently added 'ec2-34-229-176-168.compute-1.amazonaws.com' (ED25519) to the list of known hosts.
+
+Validate SSH output: /usr/bin/aws
+AWS CLI found
+[fastsync]
+Profile already exist 
+creating s3 bucket 
+{
+    "Location": "/pfastsync"
+}
+Completed 12 Bytes/1.9 KiB (26 Bytes/s) with 9 file(s) remainingupload: .aws/config to s3://pfastsync/.aws/config               
+Completed 12 Bytes/1.9 KiB (26 Bytes/s) with 8 file(s) remainingCompleted 504 Bytes/1.9 KiB (1.1 KiB/s) with 8 file(s) remainingupload: ./.bashrc to s3://pfastsync/.bashrc                     
+Completed 504 Bytes/1.9 KiB (1.1 KiB/s) with 7 file(s) remainingCompleted 522 Bytes/1.9 KiB (1.1 KiB/s) with 7 file(s) remainingupload: ./.bash_history to s3://pfastsync/.bash_history         
+Completed 522 Bytes/1.9 KiB (1.1 KiB/s) with 6 file(s) remainingCompleted 626 Bytes/1.9 KiB (1.2 KiB/s) with 6 file(s) remainingupload: ./puneet to s3://pfastsync/puneet                       
+Completed 626 Bytes/1.9 KiB (1.2 KiB/s) with 5 file(s) remainingCompleted 744 Bytes/1.9 KiB (1.5 KiB/s) with 5 file(s) remainingupload: .aws/credentials to s3://pfastsync/.aws/credentials     
+Completed 744 Bytes/1.9 KiB (1.5 KiB/s) with 4 file(s) remainingCompleted 1.1 KiB/1.9 KiB (2.2 KiB/s) with 4 file(s) remaining  upload: .ssh/authorized_keys to s3://pfastsync/.ssh/authorized_keys
+Completed 1.1 KiB/1.9 KiB (2.2 KiB/s) with 3 file(s) remainingCompleted 1.2 KiB/1.9 KiB (2.4 KiB/s) with 3 file(s) remainingupload: ./.bash_profile to s3://pfastsync/.bash_profile       
+Completed 1.2 KiB/1.9 KiB (2.4 KiB/s) with 2 file(s) remainingCompleted 1.3 KiB/1.9 KiB (2.5 KiB/s) with 2 file(s) remainingupload: ./.bash_logout to s3://pfastsync/.bash_logout         
+Completed 1.3 KiB/1.9 KiB (2.5 KiB/s) with 1 file(s) remainingCompleted 1.9 KiB/1.9 KiB (3.8 KiB/s) with 1 file(s) remainingupload: ./.viminfo to s3://pfastsync/.viminfo                 
+Directory /home/ec2-user successfully copied to s3://pfastsync.
+
+Sync to Target stderr: Warning: Permanently added 'ec2-54-208-6-53.compute-1.amazonaws.com' (ED25519) to the list of known hosts.
+
+Validate SSH output: /usr/bin/aws
+AWS CLI found
+[fastsync]
+Profile already exist 
+creating s3 bucket 
+{
+    "Location": "/pfastsync"
+}
+Completed 12 Bytes/2.2 KiB (30 Bytes/s) with 10 file(s) remainingupload: .aws/config to s3://pfastsync/.aws/config                
+Completed 12 Bytes/2.2 KiB (30 Bytes/s) with 9 file(s) remainingCompleted 504 Bytes/2.2 KiB (1.2 KiB/s) with 9 file(s) remainingupload: ./.bashrc to s3://pfastsync/.bashrc                     
+Completed 504 Bytes/2.2 KiB (1.2 KiB/s) with 8 file(s) remainingCompleted 1.4 KiB/2.2 KiB (3.3 KiB/s) with 8 file(s) remaining  upload: ./.viminfo to s3://pfastsync/.viminfo                   
+Completed 1.4 KiB/2.2 KiB (3.3 KiB/s) with 7 file(s) remainingCompleted 1.4 KiB/2.2 KiB (3.3 KiB/s) with 7 file(s) remainingupload: ./.bash_history to s3://pfastsync/.bash_history       
+Completed 1.4 KiB/2.2 KiB (3.3 KiB/s) with 6 file(s) remainingCompleted 1.5 KiB/2.2 KiB (3.5 KiB/s) with 6 file(s) remainingupload: ./puneet to s3://pfastsync/puneet                     
+Completed 1.5 KiB/2.2 KiB (3.5 KiB/s) with 5 file(s) remainingCompleted 1.6 KiB/2.2 KiB (3.6 KiB/s) with 5 file(s) remainingupload: ./vedanth to s3://pfastsync/vedanth                   
+Completed 1.6 KiB/2.2 KiB (3.6 KiB/s) with 4 file(s) remainingCompleted 1.9 KiB/2.2 KiB (4.4 KiB/s) with 4 file(s) remainingupload: .ssh/authorized_keys to s3://pfastsync/.ssh/authorized_keys
+Completed 1.9 KiB/2.2 KiB (4.4 KiB/s) with 3 file(s) remainingCompleted 2.0 KiB/2.2 KiB (4.3 KiB/s) with 3 file(s) remainingupload: ./.bash_logout to s3://pfastsync/.bash_logout         
+Completed 2.0 KiB/2.2 KiB (4.3 KiB/s) with 2 file(s) remainingCompleted 2.1 KiB/2.2 KiB (4.5 KiB/s) with 2 file(s) remainingupload: .aws/credentials to s3://pfastsync/.aws/credentials   
+Completed 2.1 KiB/2.2 KiB (4.5 KiB/s) with 1 file(s) remainingCompleted 2.2 KiB/2.2 KiB (4.8 KiB/s) with 1 file(s) remainingupload: ./.bash_profile to s3://pfastsync/.bash_profile       
+Directory /home/ec2-user successfully copied to s3://pfastsync.
+
+Sync to Target output: /usr/bin/aws
+AWS CLI found
+[fastsync]
+Profile already exist 
+Completed 49 Bytes/981 Bytes (420 Bytes/s) with 2 file(s) remainingdownload: s3://pfastsync/vedanth to ./vedanth                      
+Completed 49 Bytes/981 Bytes (420 Bytes/s) with 1 file(s) remainingCompleted 981 Bytes/981 Bytes (6.2 KiB/s) with 1 file(s) remaining download: s3://pfastsync/.viminfo to ./.viminfo                    
+Directory  s3://pfastsync successfully copied to /home/ec2-user.
+
+Validate SSH output: /usr/bin/aws
+AWS CLI found
+[fastsync]
+Profile already exist 
+creating s3 bucket 
+{
+    "Location": "/pfastsync"
+}
+Completed 12 Bytes/2.2 KiB (27 Bytes/s) with 10 file(s) remainingupload: .aws/config to s3://pfastsync/.aws/config                
+Completed 12 Bytes/2.2 KiB (27 Bytes/s) with 9 file(s) remainingCompleted 399 Bytes/2.2 KiB (919 Bytes/s) with 9 file(s) remainingupload: .ssh/authorized_keys to s3://pfastsync/.ssh/authorized_keys
+Completed 399 Bytes/2.2 KiB (919 Bytes/s) with 8 file(s) remainingCompleted 503 Bytes/2.2 KiB (1.1 KiB/s) with 8 file(s) remaining  upload: ./puneet to s3://pfastsync/puneet                         
+Completed 503 Bytes/2.2 KiB (1.1 KiB/s) with 7 file(s) remainingCompleted 552 Bytes/2.2 KiB (1.2 KiB/s) with 7 file(s) remainingupload: ./vedanth to s3://pfastsync/vedanth                     
+Completed 552 Bytes/2.2 KiB (1.2 KiB/s) with 6 file(s) remainingCompleted 693 Bytes/2.2 KiB (1.5 KiB/s) with 6 file(s) remainingupload: ./.bash_profile to s3://pfastsync/.bash_profile         
+Completed 693 Bytes/2.2 KiB (1.5 KiB/s) with 5 file(s) remainingCompleted 711 Bytes/2.2 KiB (1.5 KiB/s) with 5 file(s) remainingupload: ./.bash_logout to s3://pfastsync/.bash_logout           
+Completed 711 Bytes/2.2 KiB (1.5 KiB/s) with 4 file(s) remainingCompleted 729 Bytes/2.2 KiB (1.5 KiB/s) with 4 file(s) remainingupload: ./.bash_history to s3://pfastsync/.bash_history         
+Completed 729 Bytes/2.2 KiB (1.5 KiB/s) with 3 file(s) remainingCompleted 847 Bytes/2.2 KiB (1.8 KiB/s) with 3 file(s) remainingupload: .aws/credentials to s3://pfastsync/.aws/credentials     
+Completed 847 Bytes/2.2 KiB (1.8 KiB/s) with 2 file(s) remainingCompleted 1.3 KiB/2.2 KiB (2.8 KiB/s) with 2 file(s) remaining  upload: ./.bashrc to s3://pfastsync/.bashrc                     
+Completed 1.3 KiB/2.2 KiB (2.8 KiB/s) with 1 file(s) remainingCompleted 2.2 KiB/2.2 KiB (4.6 KiB/s) with 1 file(s) remainingupload: ./.viminfo to s3://pfastsync/.viminfo                 
+Directory /home/ec2-user successfully copied to s3://pfastsync.
+
+ -------------------------------------------------------------------Sync to Target output: /usr/bin/aws
+AWS CLI found
+[fastsync]
+Profile already exist 
+Directory  s3://pfastsync successfully copied to /home/ec2-user.
+
+ -------------------------------------------------------------------Validate SSH output: /usr/bin/aws
+AWS CLI found
+[fastsync]
+Profile already exist 
+creating s3 bucket 
+{
+    "Location": "/pfastsync"
+}
+Completed 12 Bytes/2.2 KiB (29 Bytes/s) with 10 file(s) remainingupload: .aws/config to s3://pfastsync/.aws/config                
+Completed 12 Bytes/2.2 KiB (29 Bytes/s) with 9 file(s) remainingCompleted 504 Bytes/2.2 KiB (1.2 KiB/s) with 9 file(s) remainingupload: ./.bashrc to s3://pfastsync/.bashrc                     
+Completed 504 Bytes/2.2 KiB (1.2 KiB/s) with 8 file(s) remainingCompleted 891 Bytes/2.2 KiB (2.0 KiB/s) with 8 file(s) remainingupload: .ssh/authorized_keys to s3://pfastsync/.ssh/authorized_keys
+Completed 891 Bytes/2.2 KiB (2.0 KiB/s) with 7 file(s) remainingCompleted 995 Bytes/2.2 KiB (2.2 KiB/s) with 7 file(s) remainingupload: ./puneet to s3://pfastsync/puneet                       
+Completed 995 Bytes/2.2 KiB (2.2 KiB/s) with 6 file(s) remainingCompleted 1013 Bytes/2.2 KiB (2.2 KiB/s) with 6 file(s) remainingupload: ./.bash_logout to s3://pfastsync/.bash_logout            
+Completed 1013 Bytes/2.2 KiB (2.2 KiB/s) with 5 file(s) remainingCompleted 1.9 KiB/2.2 KiB (4.2 KiB/s) with 5 file(s) remaining   upload: ./.viminfo to s3://pfastsync/.viminfo                    
+Completed 1.9 KiB/2.2 KiB (4.2 KiB/s) with 4 file(s) remainingCompleted 1.9 KiB/2.2 KiB (4.3 KiB/s) with 4 file(s) remainingupload: ./vedanth to s3://pfastsync/vedanth                   
+Completed 1.9 KiB/2.2 KiB (4.3 KiB/s) with 3 file(s) remainingCompleted 2.0 KiB/2.2 KiB (4.3 KiB/s) with 3 file(s) remainingupload: ./.bash_history to s3://pfastsync/.bash_history       
+Completed 2.0 KiB/2.2 KiB (4.3 KiB/s) with 2 file(s) remainingCompleted 2.1 KiB/2.2 KiB (4.5 KiB/s) with 2 file(s) remainingupload: .aws/credentials to s3://pfastsync/.aws/credentials   
+Completed 2.1 KiB/2.2 KiB (4.5 KiB/s) with 1 file(s) remainingCompleted 2.2 KiB/2.2 KiB (4.8 KiB/s) with 1 file(s) remainingupload: ./.bash_profile to s3://pfastsync/.bash_profile       
+Directory /home/ec2-user successfully copied to s3://pfastsync.
+
+Sync to Target output: /usr/bin/aws
+AWS CLI found
+[fastsync]
+Profile already exist 
+Directory  s3://pfastsync successfully copied to /home/ec2-user.
+
